@@ -1,4 +1,4 @@
-package project;
+package project.domain;
 
 public class Employee {
     private static Integer _id = 0;
@@ -8,8 +8,10 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String jobTitle;
+    private String department;
+    private ExpenseClaim[] claims;
 
-    Employee() {
+    public Employee() {
         this(_id++);
     }
 

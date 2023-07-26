@@ -1,6 +1,10 @@
 package project;
 
-public class Usage {
+import project.domain.Employee;
+import project.domain.ExpenseClaim;
+import project.domain.ExpenseItem;
+
+public class Main {
     public static void main(String[] args) {
         Employee e1 = new Employee();
         System.out.println(e1.getId());

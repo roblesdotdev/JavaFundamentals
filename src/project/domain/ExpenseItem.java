@@ -1,4 +1,4 @@
-package project;
+package project.domain;
 
 public record ExpenseItem(
         Integer id,

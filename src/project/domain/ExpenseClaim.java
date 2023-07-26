@@ -1,4 +1,4 @@
-package project;
+package project.domain;
 
 public class ExpenseClaim {
     private Integer id;
